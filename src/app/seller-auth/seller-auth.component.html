@@ -1,15 +1,35 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="text-center form_header mt-4">Seller Login Form</h1>
+      <div class="signup_form">
+        <h1 class="text-center form_header mt-4">Seller Register Form</h1>
         <form class="custom_login_form" #sellerSignup="ngForm" (ngSubmit)="signUp(sellerSignup.value)">
-          <input class="form_input" type="text" ngModel name="name" placeholder="Enter Name"/>
-          <input class="form_input" type="email" ngModel name="email" placeholder="Enter Mail"/>
-          <input class="form_input" type="text" ngModel name="password" placeholder="Password"/>
+          <input class="form_input" type="text" ngModel name="name" placeholder="Enter Name" />
+          <input class="form_input" type="email" ngModel name="email" placeholder="Enter Mail" />
+          <input class="form_input" type="text" ngModel name="password" placeholder="Password" />
           <p class="text-center mt-5">
-              <button class="form_submit_btn">Sign-Up</button>
+            <button class="form_submit_btn">Register</button>
+          </p>
+          <p>
+            Already have an account? <a>Sign in here</a>
           </p>
         </form>
+      </div>
+      <div class="login_form">
+        <h1 class="text-center form_header mt-4">Seller Login Form</h1>
+        <form class="custom_login_form" #sellerSignup="ngForm" (ngSubmit)="signUp(sellerSignup.value)">
+          <input class="form_input" type="text" ngModel name="name" placeholder="Enter Name" />
+          <input class="form_input" type="email" ngModel name="email" placeholder="Enter Mail" />
+          <input class="form_input" type="text" ngModel name="password" placeholder="Password" />
+          <p class="text-center mt-5">
+            <button class="form_submit_btn">Login</button>
+          </p>
+          <p>
+            Don't have an account? <a>Create new account</a>
+          </p>
+
+        </form>
+      </div>
     </div>
   </div>
 </div>

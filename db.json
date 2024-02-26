@@ -1,5 +1,10 @@
 {
   "seller": [
-
+    {
+      "id": "00be",
+      "name": "raj",
+      "mail": "raj@test.com",
+      "password": "asdsa"
+    }
   ]
 }
