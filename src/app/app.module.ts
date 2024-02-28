@@ -13,6 +13,7 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
     SellerHomeComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule,

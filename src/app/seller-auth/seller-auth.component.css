@@ -1,0 +1,8 @@
+.auth_toggle_link{
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #0732ee;
+}

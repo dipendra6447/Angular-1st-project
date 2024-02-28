@@ -1,10 +1,40 @@
 {
   "seller": [
     {
-      "id": "00be",
+      "id": "5306",
+      "name": "dip",
+      "email": "dip@test.com",
+      "password": "123456"
+    },
+    {
+      "id": "267c",
       "name": "raj",
-      "mail": "raj@test.com",
-      "password": "asdsa"
+      "email": "raj@test.com",
+      "password": "123456"
+    },
+    {
+      "id": "836e",
+      "name": "joy",
+      "email": "joy@test.com",
+      "password": "qwer"
+    },
+    {
+      "id": "e953",
+      "name": "redha",
+      "email": "redha@test.com",
+      "password": "asdf"
+    },
+    {
+      "id": "772c",
+      "name": "miki",
+      "email": "miki@test.com",
+      "password": "zxcv1234"
+    },
+    {
+      "id": "b757",
+      "name": "lahari",
+      "email": "lahari@test.com",
+      "password": "123456"
     }
   ]
 }

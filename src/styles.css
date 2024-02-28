@@ -37,3 +37,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   padding: 10px 34px;
   border-radius: 8px;
 }
+.login_form .error_msg{
+  text-align: center;
+  color: red;
+}
