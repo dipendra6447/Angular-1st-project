@@ -14,7 +14,7 @@
         <ul class="nav" *ngSwitchCase="'seller'">
           <li><a href="#" class="nav-link px-2 text-white">Add Product</a></li>
           <li><a href="#" class="nav-link px-2 text-white">List Product</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Logout</a></li>
+          <li><a (click)="logOut()" class="nav-link px-2 text-white">Logout</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Seller name</a></li>
         </ul>
       </div>

@@ -24,4 +24,8 @@ export class HeaderComponent {
       }
     })
   }
+  logOut(){
+    localStorage.removeItem("seller")
+    this.route.navigate(['/'])
+  }
 }
