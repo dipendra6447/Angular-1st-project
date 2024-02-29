@@ -9,10 +9,11 @@ export interface signin{
   password:string
 }
  export interface product{
-    product:string;
-    price:number;
-    color:string;
-    category:string;
-    image:string;
-    description:string;
+    id:string,
+    product:string,
+    price:number,
+    color:string,
+    category:string,
+    image:string,
+    description:string
  }

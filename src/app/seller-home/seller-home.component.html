@@ -27,16 +27,24 @@
             <th  scope="col">
               Description
             </th>
+            <th>
+              Action
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let Item of productList">
             <td><img src="{{Item.image}}" alt="" class="img-fluid"></td>
             <td>{{Item.product}}</td>
-            <td>{{Item.price}}</td>
+            <td>{{Item.id}}</td>
             <td>{{Item.color}}</td>
             <td>{{Item.category}}</td>
             <td>{{Item.description}}</td>
+            <td>
+              <button (click)="deleteItem(Item.id)">
+                Delete
+              </button>
+            </td>
           </tr>
         </tbody>
       </table>

@@ -15,4 +15,7 @@ export class SellerHomeComponent {
       this.productList = result
     })
   }
+  deleteItem(id:string){
+    console.log(id)
+  }
 }
