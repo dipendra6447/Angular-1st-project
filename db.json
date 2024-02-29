@@ -16,7 +16,7 @@
       "id": "836e",
       "name": "joy",
       "email": "joy@test.com",
-      "password": "qwer"
+      "password": "123456"
     },
     {
       "id": "e953",
@@ -35,6 +35,62 @@
       "name": "lahari",
       "email": "lahari@test.com",
       "password": "123456"
+    },
+    {
+      "id": "085e",
+      "name": "sayan",
+      "email": "sayan@test.com",
+      "password": "123456"
+    },
+    {
+      "id": "d9a9",
+      "name": "lina",
+      "email": "lina@test.com",
+      "password": "123456"
+    },
+    {
+      "id": "1439",
+      "name": "raju",
+      "email": "rahu@test.com",
+      "password": "123456"
+    }
+  ],
+  "product": [
+    {
+      "id": "d5a4",
+      "product": "sony",
+      "price": "20000",
+      "color": "red",
+      "category": "mobile",
+      "description": "Value for money.",
+      "image": "https://rukminim2.flixcart.com/image/416/416/mobile/w/a/3/sony-xperia-xz-original-imaenjga2upuwgy5.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "ba2f",
+      "product": "Mi",
+      "price": "10000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Vary bad.",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/m/g/-original-imagxaqtqng2hpxn.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "bff8",
+      "product": "Apple",
+      "price": "800000",
+      "color": "white",
+      "category": "mobile",
+      "description": "vary good product",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/1/i/x/-original-imagtc6fhhtqjnr9.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "783e",
+      "product": "Realme",
+      "price": "6000",
+      "color": "Green",
+      "category": "mobile",
+      "description": "Not good",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/j/d/-original-imagtqqddnkayg4x.jpeg?q=70&crop=false"
     }
   ]
 }

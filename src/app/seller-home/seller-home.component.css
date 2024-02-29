@@ -1,0 +1,12 @@
+.product_list_table{
+  text-align: center;
+}
+.product_list_table td img{
+  width: 100px;
+  height: 100px;
+}
+.product_list_table td{
+  vertical-align: middle;
+  text-align: center;
+  text-transform: capitalize;
+}

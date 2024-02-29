@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { CommonModule } from '@angular/common';
+import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { CommonModule } from '@angular/common';
     HomeComponent,
     SellerAuthComponent,
     ErrorPageComponent,
-    SellerHomeComponent
+    SellerHomeComponent,
+    SellerAddProductComponent
   ],
   imports: [
     CommonModule,

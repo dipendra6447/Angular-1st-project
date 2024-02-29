@@ -1,3 +1,5 @@
+import { ProductService } from '../service/product.service';
+import { product } from './../data-type';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./seller-home.component.css']
 })
 export class SellerHomeComponent {
-
+  productList : undefined | product[];
+  constructor(private product:ProductService) { }
+  ngOnInit(): void{
+    this.product.productList().subscribe((result)=>{
+      this.productList = result
+    })
+  }
 }

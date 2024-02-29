@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent {
   menuType:string = 'default';
+  sellerName:string ='';
   constructor(private route:Router){
 
   }
@@ -14,11 +15,12 @@ export class HeaderComponent {
     this.route.events.subscribe((val:any)=>{
       if(val.url){
         if(localStorage.getItem('seller') && val.url.includes('seller')){
-          console.log('you are seller')
           this.menuType = 'seller'
+              let sellerStore = localStorage.getItem('seller')
+              let sellerData = sellerStore && JSON.parse(sellerStore)[0]
+              this.sellerName = sellerData.name
         }
         else{
-          console.log('you are not seller')
           this.menuType = 'default'
         }
       }

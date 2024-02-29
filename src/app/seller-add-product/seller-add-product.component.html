@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="">
+        <h1 class="text-center form_header mt-4">Add New Product</h1>
+        <p class="product_add_msg">
+          {{addProductMsg}}
+        </p>
+        <form class="custom_login_form" #addProduct="ngForm" (ngSubmit)="addNewProduct(addProduct.value)" >
+          <input class="form_input" type="text" ngModel name="product" placeholder="Product Name" />
+          <input class="form_input" type="text" ngModel name="price" placeholder="Product Price" />
+          <input class="form_input" type="text" ngModel name="color" placeholder="Product Color" />
+          <input class="form_input" type="text" ngModel name="category" placeholder="Product Category" />
+          <textarea class="form_input" type="text" ngModel name="description" placeholder="Product Description" ></textarea>
+          <input class="form_input" type="text" ngModel name="image" placeholder="Product Image URL" />
+          <p class="text-center mt-5">
+            <button class="form_submit_btn">Add Product</button>
+          </p>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
