@@ -4,6 +4,9 @@
       <h1>
         Product List
       </h1>
+      <p class="delete_msg">
+        {{showDeleteMsg}}
+      </p>
     </div>
     <div class="col-lg-12">
       <table class="table product_list_table">
@@ -36,13 +39,13 @@
           <tr *ngFor="let Item of productList">
             <td><img src="{{Item.image}}" alt="" class="img-fluid"></td>
             <td>{{Item.product}}</td>
-            <td>{{Item.id}}</td>
+            <td>{{Item.price}}</td>
             <td>{{Item.color}}</td>
             <td>{{Item.category}}</td>
             <td>{{Item.description}}</td>
             <td>
-              <button (click)="deleteItem(Item.id)">
-                Delete
+              <button class="delete_btn" (click)="deleteItem(Item.id)">
+                 <fa-icon [icon]="faTrash"></fa-icon>
               </button>
             </td>
           </tr>
