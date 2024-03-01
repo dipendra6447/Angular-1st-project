@@ -1,7 +1,7 @@
 import { ProductService } from '../service/product.service';
 import { product } from './../data-type';
 import { Component } from '@angular/core';
-import {faTrash} from '@fortawesome/free-solid-svg-icons'
+import {faTrash, faPenToSquare} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-seller-home',
@@ -10,6 +10,7 @@ import {faTrash} from '@fortawesome/free-solid-svg-icons'
 })
 export class SellerHomeComponent {
   faTrash = faTrash;
+  faPenToSquare = faPenToSquare;
   productList : undefined | product[];
   showDeleteMsg: undefined | string;
   constructor(private product:ProductService) { }

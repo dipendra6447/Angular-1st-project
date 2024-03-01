@@ -47,6 +47,9 @@
               <button class="delete_btn" (click)="deleteItem(Item.id)">
                  <fa-icon [icon]="faTrash"></fa-icon>
               </button>
+              <a routerLink="/product-edit/{{Item.id}}" class="edit_btn">
+                <fa-icon [icon]="faPenToSquare"></fa-icon>
+              </a>
             </td>
           </tr>
         </tbody>
