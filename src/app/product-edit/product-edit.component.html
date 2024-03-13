@@ -7,12 +7,12 @@
 
         </p>
         <form class="custom_login_form" #editProducts="ngForm" (ngSubmit)="editProduct(editProducts.value)" >
-          <input class="form_input" type="text" ngModel name="product" placeholder="Product Name" />
-          <input class="form_input" type="text" ngModel name="price" placeholder="Product Price" />
-          <input class="form_input" type="text" ngModel name="color" placeholder="Product Color" />
-          <input class="form_input" type="text" ngModel name="category" placeholder="Product Category" />
-          <textarea class="form_input" type="text" ngModel name="description" placeholder="Product Description" ></textarea>
-          <input class="form_input" type="text" ngModel name="image" placeholder="Product Image URL" />
+          <input class="form_input" type="text" ngModel="{{producatData?.product}}" name="product" placeholder="Product Name" />
+          <input class="form_input" type="text" ngModel="{{producatData?.price}}" name="price" placeholder="Product Price" />
+          <input class="form_input" type="text" ngModel="{{producatData?.color}}" name="color" placeholder="Product Color" />
+          <input class="form_input" type="text" ngModel="{{producatData?.category}}" name="category" placeholder="Product Category" />
+          <textarea class="form_input" type="text" ngModel="{{producatData?.description}}" name="description" placeholder="Product Description" ></textarea>
+          <input class="form_input" type="text" ngModel="{{producatData?.image}}" name="image" placeholder="Product Image URL" />
           <p class="text-center mt-5">
             <button class="form_submit_btn">Edit Product</button>
           </p>
