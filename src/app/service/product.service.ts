@@ -1,15 +1,17 @@
+import { product } from './../data-type';
+import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { product } from '../data-type';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
 
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient, private router:Router) { }
   addProduct(data:product){
-    return this.http.post('http://localhost:3000/product', data)
+    return this.http.post('http://localhost:3000/product', data, {observe : 'response'})
+
   }
   productList(){
     return this.http.get<product[]>('http://localhost:3000/product')
@@ -19,5 +21,8 @@ export class ProductService {
   }
   getProduct(id:string){
     return this.http.get<product>(`http://localhost:3000/product/${id}`)
+  }
+  updateProduct(product:product){
+    return this.http.put<product>(`http://localhost:3000/product/${product.id}`, product, {observe : 'response'})
   }
 }

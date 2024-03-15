@@ -57,13 +57,13 @@
   ],
   "product": [
     {
-      "id": "d5a4",
-      "product": "sony",
-      "price": "20000",
+      "product": "Apple",
+      "price": "2000",
       "color": "red",
       "category": "mobile",
       "description": "Value for money.",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70&crop=false"
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70&crop=false",
+      "id": "d5a4"
     },
     {
       "id": "ba2f",
@@ -73,6 +73,24 @@
       "category": "mobile",
       "description": "Vary bad.",
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "aeb5",
+      "product": "Apple",
+      "price": "90000",
+      "color": "gray",
+      "category": "laptop",
+      "description": "Nice laptop",
+      "image": "https://rukminim2.flixcart.com/image/416/416/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70&crop=false"
+    },
+    {
+      "product": "Realme",
+      "price": "600",
+      "color": "red",
+      "category": "headphone",
+      "description": "nice headphone.",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/j/t/c/-original-imaghbdup9jbrdzh.jpeg?q=70&crop=false",
+      "id": "f9ac"
     }
   ]
 }

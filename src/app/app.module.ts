@@ -16,7 +16,8 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { CommonModule } from '@angular/common';
 import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ProductEditComponent } from './product-edit/product-edit.component';
+
+import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
 
 
 @NgModule({
@@ -28,7 +29,7 @@ import { ProductEditComponent } from './product-edit/product-edit.component';
     ErrorPageComponent,
     SellerHomeComponent,
     SellerAddProductComponent,
-    ProductEditComponent
+    SellerUpdateProductComponent
   ],
   imports: [
     CommonModule,
