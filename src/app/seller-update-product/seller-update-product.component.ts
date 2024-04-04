@@ -12,6 +12,7 @@ import { HttpClient } from '@angular/common/http';
 export class SellerUpdateProductComponent {
   constructor(private router : ActivatedRoute, private product : ProductService, private http:HttpClient, private Router: Router){}
   producatData : undefined | product;
+  productEditMsg: undefined | string;
  ngOnInit() : void{
   let productId = this.router.snapshot.paramMap.get('id')
   productId && this.product.getProduct(productId).subscribe((data)=>{
@@ -24,8 +25,11 @@ export class SellerUpdateProductComponent {
     data.id = this.producatData.id
   }
   this.product.updateProduct(data).subscribe((result)=>{
+    if(result){
+      this.productEditMsg = 'product edit successfully'
+    }
     setTimeout(()=>(
-
+      this.productEditMsg = undefined,
       this.Router.navigate(['/seller-home'])
       ), 1000);
 

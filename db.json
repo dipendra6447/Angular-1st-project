@@ -58,39 +58,84 @@
   "product": [
     {
       "product": "Apple",
-      "price": "2000",
+      "price": "40,000",
       "color": "red",
       "category": "mobile",
-      "description": "Value for money.",
+      "description": "Experience the iPhone 15 – your dynamic companion",
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70&crop=false",
       "id": "d5a4"
     },
     {
-      "id": "ba2f",
       "product": "Mi",
-      "price": "10000",
+      "price": "10,000",
       "color": "black",
       "category": "mobile",
-      "description": "Vary bad.",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70&crop=false"
+      "description": "The 6.67\" FHD+ 120Hz AMOLED display ",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/v/a/-original-imagcvg4mrr8epgs.jpeg?q=70&crop=false",
+      "id": "ba2f"
     },
     {
-      "id": "aeb5",
       "product": "Apple",
-      "price": "90000",
+      "price": "90,000",
       "color": "gray",
       "category": "laptop",
-      "description": "Nice laptop",
-      "image": "https://rukminim2.flixcart.com/image/416/416/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70&crop=false"
+      "description": "Thin and Light Laptop and 13.3 inch Quad LED Backlit IPS Display",
+      "image": "https://rukminim2.flixcart.com/image/416/416/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70&crop=false",
+      "id": "aeb5"
     },
     {
       "product": "Realme",
       "price": "600",
       "color": "red",
       "category": "headphone",
-      "description": "nice headphone.",
+      "description": " The realme TechLife Buds T100 are sure to be your new best buds!",
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/j/t/c/-original-imaghbdup9jbrdzh.jpeg?q=70&crop=false",
       "id": "f9ac"
+    },
+    {
+      "product": "Thomson",
+      "price": "7,900",
+      "color": "black",
+      "category": "Washing Machine",
+      "description": "Thomson washing machine is perfect for a small household",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/washing-machine-new/z/b/q/-original-imagxbywcadw6gpa.jpeg?q=70&crop=false",
+      "id": "16d4"
+    },
+    {
+      "product": "ADIDAS ",
+      "price": "4,570",
+      "color": "White",
+      "category": "Cricket Shoes",
+      "description": "ADIDAS Howzat Spike 20 Cricket Shoes For Men  (White)",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/e/c/q/-original-imagzjg2ph3shuxs.jpeg?q=70&crop=false",
+      "id": "4c04"
+    },
+    {
+      "product": "WZITAK",
+      "price": "490",
+      "color": "black",
+      "category": "Sneakers For Men",
+      "description": "Casual Sneaker Shoes For Men | Comfortable, Breathable, Arch Support Sneakers For Men",
+      "image": "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/o/e/b/9-sporty-shoes-for-men-wzitak-blue-original-imagz9wdsgxmybwb.jpeg?q=70&crop=false",
+      "id": "9bdb"
+    },
+    {
+      "id": "29cc",
+      "product": "CARRIER",
+      "price": "29,400",
+      "color": "White",
+      "category": "Split Inverter AC",
+      "description": "Very fast cooling with no sound.",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/p/a/-original-imagybevcwqx4zdg.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "c416",
+      "product": "Mi ",
+      "price": "24,000",
+      "color": "black",
+      "category": "Smart Google TV",
+      "description": " 108 cm (43 inch) Full HD LED Smart Google TV",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/3/g/g/-original-imagu7f3g7s5jdfs.jpeg?q=70&crop=false"
     }
   ]
 }

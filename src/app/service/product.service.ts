@@ -25,4 +25,10 @@ export class ProductService {
   updateProduct(product:product){
     return this.http.put<product>(`http://localhost:3000/product/${product.id}`, product, {observe : 'response'})
   }
+  popularProducts(){
+    return this.http.get<product[]>('http://localhost:3000/product?_limit=3')
+  }
+  trandingProducts(){
+    return this.http.get<product[]>('http://localhost:3000/product?_limit=6')
+  }
 }

@@ -4,7 +4,7 @@
       <div class="">
         <h1 class="text-center form_header mt-4">Edit Product</h1>
         <p class="product_add_msg">
-
+          {{productEditMsg}}
         </p>
         <form class="custom_login_form" #editProducts="ngForm" (ngSubmit)="editProduct(editProducts.value)" >
           <input class="form_input" type="text" ngModel="{{producatData?.product}}" name="product" placeholder="Product Name" />

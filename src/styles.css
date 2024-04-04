@@ -41,3 +41,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   text-align: center;
   color: red;
 }
+.main_heading{
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  color: #000;
+  margin-bottom: 50px !important;
+}
