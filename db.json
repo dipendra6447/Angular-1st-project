@@ -96,7 +96,7 @@
       "product": "Thomson",
       "price": "7,900",
       "color": "black",
-      "category": "Washing Machine",
+      "category": "washing machine",
       "description": "Thomson washing machine is perfect for a small household",
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/washing-machine-new/z/b/q/-original-imagxbywcadw6gpa.jpeg?q=70&crop=false",
       "id": "16d4"
@@ -105,7 +105,7 @@
       "product": "ADIDAS ",
       "price": "4,570",
       "color": "White",
-      "category": "Cricket Shoes",
+      "category": "shoes",
       "description": "ADIDAS Howzat Spike 20 Cricket Shoes For Men  (White)",
       "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/e/c/q/-original-imagzjg2ph3shuxs.jpeg?q=70&crop=false",
       "id": "4c04"
@@ -114,28 +114,28 @@
       "product": "WZITAK",
       "price": "490",
       "color": "black",
-      "category": "Sneakers For Men",
+      "category": "shoes",
       "description": "Casual Sneaker Shoes For Men | Comfortable, Breathable, Arch Support Sneakers For Men",
       "image": "https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/o/e/b/9-sporty-shoes-for-men-wzitak-blue-original-imagz9wdsgxmybwb.jpeg?q=70&crop=false",
       "id": "9bdb"
     },
     {
-      "id": "29cc",
       "product": "CARRIER",
       "price": "29,400",
       "color": "White",
-      "category": "Split Inverter AC",
+      "category": "ac",
       "description": "Very fast cooling with no sound.",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/p/a/-original-imagybevcwqx4zdg.jpeg?q=70&crop=false"
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/p/a/-original-imagybevcwqx4zdg.jpeg?q=70&crop=false",
+      "id": "29cc"
     },
     {
-      "id": "c416",
       "product": "Mi ",
       "price": "24,000",
       "color": "black",
-      "category": "Smart Google TV",
+      "category": "tv",
       "description": " 108 cm (43 inch) Full HD LED Smart Google TV",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/3/g/g/-original-imagu7f3g7s5jdfs.jpeg?q=70&crop=false"
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/3/g/g/-original-imagu7f3g7s5jdfs.jpeg?q=70&crop=false",
+      "id": "c416"
     }
   ]
 }

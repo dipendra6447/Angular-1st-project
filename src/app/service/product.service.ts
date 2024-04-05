@@ -31,4 +31,7 @@ export class ProductService {
   trandingProducts(){
     return this.http.get<product[]>('http://localhost:3000/product?_limit=6')
   }
+  searchProduct(event:string){
+    return this.http.get<product[]>(`http://localhost:3000/product?category=${event}`)
+  }
 }
