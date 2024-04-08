@@ -12,6 +12,8 @@
   margin-bottom: 15px;
   font-weight: 700;
   color: blue;
+  text-decoration: none;
+  display: inline-block;
 }
 .search_item_list_box  .product_price{
   font-size: 18px;

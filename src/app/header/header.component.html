@@ -73,7 +73,7 @@
         </button>
         <ul class="result_box" *ngIf="searchResult">
           <li *ngFor="let item of searchResult">
-            <a href="">
+            <a routerLink="/details/{{item.product}}" target="_blank">
               {{item.product}}
             </a>
           </li>
