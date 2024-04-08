@@ -18,6 +18,7 @@ import { SellerAddProductComponent } from './seller-add-product/seller-add-produ
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { SellerUpdateProductComponent } from './seller-update-product/seller-upd
     ErrorPageComponent,
     SellerHomeComponent,
     SellerAddProductComponent,
-    SellerUpdateProductComponent
+    SellerUpdateProductComponent,
+    SearchComponent
   ],
   imports: [
     CommonModule,

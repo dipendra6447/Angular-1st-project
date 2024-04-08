@@ -1,0 +1,30 @@
+.search_result_sec{
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.search_item_list_box{
+  position: relative;
+  border-bottom: 1px solid;
+  padding: 30px 10px;
+}
+.search_item_list_box .produact_name{
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: blue;
+}
+.search_item_list_box  .product_price{
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.search_page_heading{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.search_page_heading span{
+  font-weight: 700;
+}

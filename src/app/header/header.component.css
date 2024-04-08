@@ -21,3 +21,19 @@
 .result_box li:last-child{
   border-bottom: none;
 }
+.search_bar{
+  display: inline-block;
+  float: left;
+  width: 250px;
+}
+.search_btn{
+  padding: 0.45rem .75rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+.search_btn svg{
+  display: inline-block;
+  width: 20px;
+  height: auto;
+}
