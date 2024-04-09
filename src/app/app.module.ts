@@ -20,6 +20,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
 import { SearchComponent } from './search/search.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { UserAuthComponent } from './user-auth/user-auth.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     SellerAddProductComponent,
     SellerUpdateProductComponent,
     SearchComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    UserAuthComponent
   ],
   imports: [
     CommonModule,

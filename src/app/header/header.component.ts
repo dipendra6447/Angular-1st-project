@@ -41,6 +41,9 @@ export class HeaderComponent {
       })
     }
   }
+  redirectDetails(id:string){
+    this.route.navigate(['details/'+id])
+  }
   hideSearcResult(){
     this.searchResult = undefined;
   }

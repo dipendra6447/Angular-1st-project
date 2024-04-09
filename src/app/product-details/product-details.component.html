@@ -1,1 +1,33 @@
-<p>product-details works!</p>
+<section class="produact_detail_section">
+  <div class="container">
+    <div class="row" *ngIf="producatDetails">
+      <div class="col-lg-4 m-auto">
+        <img src="{{producatDetails.image}}" class="img-fluid" alt="{{producatDetails.product}}">
+      </div>
+      <div class="col-lg-8 m-auto">
+        <p class="item_name">
+          {{producatDetails.product}}
+        </p>
+        <p class="item_details">
+          Category: {{producatDetails.category}}
+        </p>
+        <p class="item_price">
+          Price: ₹{{producatDetails.price}}
+        </p>
+        <p>
+          color: <span [style.background]="producatDetails.color" class="item_color"></span>
+        </p>
+
+        <p class="item_details mt-4 mb-4">
+          Description: {{producatDetails.description}}
+        </p>
+        <button class="item_buy_btn me-3">Add to cart</button><button class="item_buy_btn">Buy now</button>
+        <div class="item_unit">
+          <button (click)="handelQuntity('min')">-</button>
+          <input type="text" name="" value="{{productQuantity}}" id="" disabled>
+          <button (click)="handelQuntity('plus')">+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

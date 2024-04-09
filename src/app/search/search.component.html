@@ -8,13 +8,13 @@
         <div class="search_item_list_box" *ngFor="let item of searchResult">
             <div class="row">
               <div class="col-md-3">
-                <a routerLink="/details/{{item.product}}" target="_blank">
+                <a routerLink="/details/{{item.id}}">
                   <img src="{{item.image}}" class="img-fluid" alt="">
                 </a>
 
               </div>
               <div class="col-md-9 m-auto">
-                <a  routerLink="/details/{{item.product}}" target="_blank" class="produact_name">
+                <a  routerLink="/details/{{item.id}}" class="produact_name">
                   {{item.product}}
                 </a>
                 <p class="product_price">

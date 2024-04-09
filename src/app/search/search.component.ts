@@ -17,7 +17,6 @@ export class SearchComponent {
       this.producatType = quary || '';
       quary && this.product.searchProduct(quary).subscribe((result)=>{
       this.searchResult= result;
-      console.log(result)
       if(result.length===0){
         this.searchResult = undefined;
       }
