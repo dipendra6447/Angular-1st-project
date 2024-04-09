@@ -1,3 +1,4 @@
+import { signUp } from './../data-type';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-auth.component.css']
 })
 export class UserAuthComponent {
+  constructor(){}
+  ngOnInit():void{
 
+  }
+  signUp(data: signUp){
+    console.log(data)
+  }
 }
