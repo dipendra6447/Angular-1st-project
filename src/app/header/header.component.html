@@ -145,7 +145,11 @@
         <ul class="nav" *ngSwitchCase="'default'">
           <li><a routerLink="" class="nav-link px-2 text-white">Home</a></li>
           <li><a routerLink="seller-auth" class="nav-link px-2 text-white">Seller</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Login</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Cart(0)</a></li>
+        </ul>
+        <ul class="nav" *ngSwitchCase="'user'">
+          <li><a routerLink="" class="nav-link px-2 text-white">Home</a></li>
+          <li><a routerLink="seller-auth" class="nav-link px-2 text-white">Seller</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Cart(0)</a></li>
         </ul>
         <ul class="nav" *ngSwitchCase="'seller'">
@@ -214,11 +218,18 @@
           </li>
         </ul>
       </form>
-
-      <div class="text-end" *ngIf="menuType==='default'">
-        <button type="button" class="btn btn-outline-light me-2">Login</button>
-        <button routerLink="user-auth" type="button" class="btn btn-warning">Sign-up</button>
+      <div [ngSwitch]="menuType">
+        <div class="text-end" *ngSwitchCase="'default'">
+          <button routerLink="user-auth"  type="button" class="btn btn-warning">Login</button>
+        </div>
+        <div class="text-end" *ngSwitchCase="'user'">
+          <button class="btn user_name me-2">
+            {{userName | titlecase}}
+          </button>
+          <button (click)="userLogout()" type="button" class="btn  btn-outline-light">Logout</button>
+        </div>
       </div>
+
     </div>
   </div>
 </header>

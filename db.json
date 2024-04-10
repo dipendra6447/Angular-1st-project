@@ -137,5 +137,31 @@
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/3/g/g/-original-imagu7f3g7s5jdfs.jpeg?q=70&crop=false",
       "id": "c416"
     }
+  ],
+  "user": [
+    {
+      "id": "4abb",
+      "name": "dip",
+      "email": "dip@demo.com",
+      "password": "123456"
+    },
+    {
+      "id": "d39c",
+      "name": "dip",
+      "email": "dipendra@demo1.com",
+      "password": "123456"
+    },
+    {
+      "id": "24ea",
+      "name": "dip",
+      "email": "dipendra@demo2.com",
+      "password": "123456"
+    },
+    {
+      "id": "5d0a",
+      "name": "dip",
+      "email": "dipendra@demo3.com",
+      "password": "123456"
+    }
   ]
 }
