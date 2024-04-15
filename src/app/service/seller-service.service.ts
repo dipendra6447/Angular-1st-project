@@ -25,8 +25,9 @@ export class SellerServiceService {
     return this.http.get(`http://localhost:3000/seller?name=${data.name}&password=${data.password}`, {observe:'response'})
       .subscribe((result:any)=>{
         if(result && result.body && result.body.length){
-          localStorage.setItem("seller", JSON.stringify(result.body))
+          localStorage.setItem("seller", JSON.stringify(result.body[0]))
           this.router.navigate(["/seller-home"])
+
         }else{
           this.isLoginError.emit(true)
 

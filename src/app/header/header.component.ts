@@ -21,7 +21,7 @@ export class HeaderComponent {
         if(localStorage.getItem('seller') && val.url.includes('seller')){
           this.menuType = 'seller'
               let sellerStore = localStorage.getItem('seller')
-              let sellerData = sellerStore && JSON.parse(sellerStore)[0]
+              let sellerData = sellerStore && JSON.parse(sellerStore)
               this.sellerName = sellerData.name
         }
         else if(localStorage.getItem('user')){

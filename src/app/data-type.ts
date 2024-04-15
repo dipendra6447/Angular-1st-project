@@ -6,6 +6,7 @@ export interface signUp{
 
 export interface signin{
   name:string,
+  email:string,
   password:string
 }
  export interface product{

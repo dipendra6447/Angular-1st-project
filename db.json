@@ -53,6 +53,18 @@
       "name": "raju",
       "email": "rahu@test.com",
       "password": "123456"
+    },
+    {
+      "id": "b14f",
+      "name": "dip5",
+      "email": "dip5@test.com",
+      "password": "123456"
+    },
+    {
+      "id": "e36b",
+      "name": "dip5",
+      "email": "dip@test5.com",
+      "password": "123456"
     }
   ],
   "product": [
@@ -140,27 +152,45 @@
   ],
   "user": [
     {
-      "id": "4abb",
+      "id": "b9cb",
       "name": "dip",
       "email": "dip@demo.com",
       "password": "123456"
     },
     {
-      "id": "d39c",
-      "name": "dip",
-      "email": "dipendra@demo1.com",
+      "id": "5fdc",
+      "name": "joy",
+      "email": "joy@demo.com",
       "password": "123456"
     },
     {
-      "id": "24ea",
-      "name": "dip",
-      "email": "dipendra@demo2.com",
+      "id": "df51",
+      "name": "redha",
+      "email": "redha@demo.com",
       "password": "123456"
     },
     {
-      "id": "5d0a",
+      "id": "a778",
+      "name": "raj",
+      "email": "raj@demo.com",
+      "password": "123456"
+    },
+    {
+      "id": "23df",
+      "name": "sayan",
+      "email": "sayan@demo.com",
+      "password": "123456"
+    },
+    {
+      "id": "01dc",
+      "name": "sayan",
+      "email": "sayan@demo1.com",
+      "password": "123456"
+    },
+    {
+      "id": "6697",
       "name": "dip",
-      "email": "dipendra@demo3.com",
+      "email": "dip@demo2.com",
       "password": "123456"
     }
   ]
