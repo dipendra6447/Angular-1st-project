@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-auth.component.css']
 })
 export class UserAuthComponent {
-  showLogin:boolean = true
+  showLogin:boolean = true;
+  loginErrorMsg: string | undefined;
   constructor(private user:UserService){}
   ngOnInit():void{
     this.user.userAuthReload();
@@ -18,6 +19,14 @@ export class UserAuthComponent {
   }
   logIn(data: signin){
     this.user.userSignin(data)
+    this.user.invalidUserAuth.subscribe((result)=>{
+      if(result){
+        this.loginErrorMsg="Invalid username or password"
+      }
+      setTimeout(()=>(
+        this.loginErrorMsg = undefined
+        ), 3000);
+    })
   }
   openSigin(){
     this.showLogin = true

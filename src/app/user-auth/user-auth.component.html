@@ -18,11 +18,14 @@
         </div>
         <div class="signup_form" *ngIf="showLogin">
           <h1 class="text-center form_header mt-4">User Login Form</h1>
+          <p class="login_error_msg">{{loginErrorMsg}}</p>
           <form  class="custom_login_form" #userLogin="ngForm" (ngSubmit)="logIn(userLogin.value)">
-            <input class="form_input" type="mail" name="email" placeholder="Email" ngModel />
-            <input class="form_input" type="password" name="password" placeholder="Password" ngModel />
+            <input class="form_input" type="mail" name="email" placeholder="Email" ngModel #email="ngModel" required email />
+            <p class="invalid_input" *ngIf="email.touched && email.invalid">Please Enter valid input.</p>
+            <input class="form_input" type="password" name="password" placeholder="Password" ngModel #password="ngModel" required/>
+            <p class="invalid_input" *ngIf="password.touched && password.invalid">Please Enter valid input.</p>
             <p class="text-center mt-5">
-              <button class="form_submit_btn">Login</button>
+              <button class="form_submit_btn" [disabled]="userLogin.invalid">Login</button>
             </p>
           </form>
           <p>
