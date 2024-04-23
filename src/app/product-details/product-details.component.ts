@@ -16,7 +16,6 @@ export class ProductDetailsComponent {
     let productId = this.activeRouter.snapshot.paramMap.get("productId")
     productId && this.product.getProduct(productId).subscribe((result)=>{
       this.producatDetails = result
-      console.log(this.producatDetails)
     })
   }
   handelQuntity(val:String){
@@ -24,6 +23,15 @@ export class ProductDetailsComponent {
       this.productQuantity+=1
     }else if(this.productQuantity>1 && val==='min'){
       this.productQuantity-=1
+    }
+  }
+  addToCart(){
+    if(this.producatDetails){
+        this.producatDetails.quantity = this.productQuantity
+        if(!localStorage.getItem('user')){
+          this.product.productToCart(this.producatDetails)
+        }
+
     }
   }
 }

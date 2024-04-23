@@ -21,7 +21,7 @@
         <p class="item_details mt-4 mb-4">
           Description: {{producatDetails.description}}
         </p>
-        <button class="item_buy_btn me-3">Add to cart</button><button class="item_buy_btn">Buy now</button>
+        <button class="item_buy_btn me-3" (click)="addToCart()">Add to cart</button><button class="item_buy_btn">Buy now</button>
         <div class="item_unit">
           <button (click)="handelQuntity('min')">-</button>
           <input type="text" name="" value="{{productQuantity}}" id="" disabled>

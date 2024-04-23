@@ -145,12 +145,12 @@
         <ul class="nav" *ngSwitchCase="'default'">
           <li><a routerLink="" class="nav-link px-2 text-white">Home</a></li>
           <li><a routerLink="seller-auth" class="nav-link px-2 text-white">Seller</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Cart(0)</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Cart({{cartCount}})</a></li>
         </ul>
         <ul class="nav" *ngSwitchCase="'user'">
           <li><a routerLink="" class="nav-link px-2 text-white">Home</a></li>
           <li><a routerLink="seller-auth" class="nav-link px-2 text-white">Seller</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Cart(0)</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Cart({{cartCount}})</a></li>
         </ul>
         <ul class="nav" *ngSwitchCase="'seller'">
           <li><a routerLink="seller-add-product" class="nav-link px-2 text-white">Add Product</a></li>

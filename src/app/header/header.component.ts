@@ -12,6 +12,7 @@ export class HeaderComponent {
   sellerName:string ='';
   userName:string='';
   searchResult:undefined|product[];
+  cartCount:number = 0;
   constructor(private route:Router, private product:ProductService){
 
   }
@@ -34,6 +35,13 @@ export class HeaderComponent {
           this.menuType = 'default'
         }
       }
+    });
+    let cartData = localStorage.getItem('localCart');
+    if(cartData){
+      this.cartCount = JSON.parse(cartData).length
+    }
+    this.product.cartData.subscribe((result)=>{
+      this.cartCount= result.length
     })
   }
   logOut(){

@@ -16,5 +16,6 @@ export interface signin{
     color:string,
     category:string,
     image:string,
-    description:string
+    description:string,
+    quantity: undefined|number
  }
